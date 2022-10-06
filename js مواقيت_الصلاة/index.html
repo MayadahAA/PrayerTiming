@@ -15,27 +15,33 @@
       rel="stylesheet"/>
   </head>
   <body>
-    <div style="height: 100vh;">
+    <div style="height: 10vh;">
         
-        <div style=" margin: 100px 40px 0 0; ">
+        <div style=" margin: 10px 40px 0 0; " class="container">
 
             <!-- Start city name + date -->
+             <!-- START CHANGE CITY SELECT -->
+             <div class="dropdown center">
+                <select name="" id="cities-select" class="selection">
+
+                </select>
+            </div>
             <div>
-                <h1 class="city-name" id="city-name"> <!--الرياض--></h1>
+                <h1 class="city-name" id="city-name"> الرياض</h1>
                 <h6 class="date" id="date"> <!-- 9 ربيع الاول---></h6>
             </div>
                 <hr>
             <!-- End city name + date -->
 
             <!-- START PRAYER TIMINGS -->
-            <div class="center" style="height: 300px; margin-top: 80px;">
+            <div class="center cards" style="height: 300px; margin-top: 80px;">
                 <!-- START CARD 1-->
                 <div class="card">
                     <div class="header">
                         <h1>الفجر</h1>
                     </div>
                     <div class="bodycard center">
-                        <h1 class="time" id="fajr">4:30</h1>
+                        <h2 class="time" id="fajr">4:30</h2>
                     </div>
                 </div>
                 <!-- END CARD 1-->
@@ -46,7 +52,7 @@
                         <h1>الشروق</h1>
                     </div>
                     <div class="bodycard center">
-                        <h1 class="time" id="sunrise">4:30</h1>
+                        <h2 class="time" id="sunrise">4:30</h2>
                     </div>
                 </div>
                 <!-- END CARD 2-->
@@ -57,7 +63,7 @@
                         <h1>الظهر</h1>
                     </div>
                     <div class="bodycard center">
-                        <h1 class="time" id="dhuhr">4:30</h1>
+                        <h2 class="time" id="dhuhr">4:30</h2>
                     </div>
                 </div>
                 <!-- END CARD 3-->
@@ -68,7 +74,7 @@
                         <h1>العصر</h1>
                     </div>
                     <div class="bodycard center">
-                        <h1 class="time" id="aser">4:30</h1>
+                        <h2 class="time" id="aser">4:30</h2>
                     </div>
                 </div>
                 <!-- END CARD 4-->
@@ -79,7 +85,7 @@
                         <h1>المغرب</h1>
                     </div>
                     <div class="bodycard center">
-                        <h1 class="time" id="sunset">4:30</h1>
+                        <h2 class="time" id="sunset">4:30</h2>
                     </div>
                 </div>
                 <!-- END CARD 5-->
@@ -90,7 +96,7 @@
                         <h1>العشاء</h1>
                     </div>
                     <div class="bodycard center">
-                        <h1 class="time" id="isha">4:30</h1>
+                        <h2 class="time" id="isha">4:30</h2>
                     </div>
                 </div>
                 <!-- END CARD 6-->
@@ -98,12 +104,7 @@
             </div>
              <!-- END PRAYER TIMINGS -->
 
-             <!-- START CHANGE CITY SELECT -->
-            <div class="dropdown center">
-                <select name="" id="cities-select" class="selection">
-
-                </select>
-            </div>
+            
         </div>
     </div>
   </body>
